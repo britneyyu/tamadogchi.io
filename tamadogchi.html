@@ -2,14 +2,33 @@
 
 <head>
 <meta charset = "utf-8"/>
-<script src="./validation.js"></script>
+<script src="./tamadogchi.js"></script>
+<link rel="stylesheet" href="tamadogchi.css">
 <title>Tamadogchi</title>
 </head>
 
-<body>
-<h1>
+<body class="center">
+<div align="center">
+<h1 id="title">
 Welcome to Tamadogchi
 </h1>
+
+<img src="shiba.png" width="300" id="shiba" alt="shiba" onclick="clickDog()">
+<div></div>
+<h2 id="eatText">Hunger: 25</h2>
+<h2 id="sleepText">Awakeness: 25</h2>
+<h2 id="playText">Happy: 25</h2>  
+<!--
+<div id="dogstat">
+    <div id="dogstatbar"></div>
+</div>
+-->
+<!--button onclick="progressBar()">Click</button-->
+<button type="button" id="eatButton">Eat</button>
+<button type="button" id="sleepButton">Sleep</button>
+<button type="button" id="playButton">Play</button>
+<br>
+<button type="button" id="startButton" onclick="main()">Start</button>
 
 </body>
 

@@ -1,0 +1,16 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: navy;
+    margin-left: 20px;
+  }
+
+  #dogstatbar{
+      width: 10%;
+      height:30px;
+      background-color:#04AA6D;
+      line-height: 30px;
+      color: white;
+  }
